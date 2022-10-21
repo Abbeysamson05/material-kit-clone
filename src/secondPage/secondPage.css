@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+
+.first-grid-container{
+    margin: 0 auto !important;
+    /* font-family: 'Roboto-Slab, serif'; */
+}
+.first-h1{
+    font-family: 'Roboto Slab', serif ;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.first-h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.first-p1{
+    font-size: 1.15rem;
+    font-family: 'Roboto Slab', serif;
+}
+.second-h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.second-h4{
+    font-size: 1.1rem;
+}
+.first-grid{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.first-grid h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.second-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.first-grid__1{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    padding:  2rem;
+    border-radius: 12px;
+    text-align: center;
+}
+ion-icon{
+    font-size: 26px ;
+    margin: 1.5rem;
+    color: gray;
+}
+
+.svg-icon{
+    margin: 1.5rem;
+}
+.col p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+}
+.col h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}

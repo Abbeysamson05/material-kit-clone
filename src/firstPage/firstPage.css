@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+.header-text{
+    margin:auto;
+    font-family: 'Roboto Slab', serif;
+    
+
+}
+.head-1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.head-2{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.flex-1{
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+}
+.first-pics{
+    background-image: url(/public/material-bgPics.jpg);
+    /* background-image: url(https://demos.creative-tim.com/material-kit-pro-react/static/media/bg-presentation.88963029.jpg); */
+    background-size: cover;
+    height: 40rem !important;
+    background-color: brown !important;
+}
